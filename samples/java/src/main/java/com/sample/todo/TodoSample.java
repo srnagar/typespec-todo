@@ -1,7 +1,5 @@
 package com.sample.todo;
 
-import com.generic.core.credential.KeyCredential;
-import com.generic.core.models.BinaryData;
 import com.todo.TodoClientBuilder;
 import com.todo.TodoItemsAttachmentsClient;
 import com.todo.TodoItemsClient;
@@ -13,6 +11,8 @@ import com.todo.models.TodoItemStatus;
 import com.todo.models.User;
 import com.todo.models.UserCreatedResponse;
 
+import io.clientcore.core.credential.KeyCredential;
+import io.clientcore.core.util.binarydata.BinaryData;
 /**
  * Sample code to demonstrate the use of ToDo APIs by demonstrating a simple
  * scenario of creating a user, creating a
